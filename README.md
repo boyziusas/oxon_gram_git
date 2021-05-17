@@ -34,10 +34,15 @@ Install all the dependencies using composer
 composer install
 ```
 
-Copy the example env file and **make the required configuration changes and fill missing entries from core.telegram.com page** in the .env file
+Copy the example env file and **change api_id and api_hash entries from core.telegram.com page** in the .env file**
 
 ```
 cp .env.example .env
+```
+
+**change api_id and api_hash entries from core.telegram.com page** in the .env file**
+
+```
 ```
 
 Generate a new application key
