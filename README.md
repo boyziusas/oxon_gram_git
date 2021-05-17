@@ -46,18 +46,6 @@ Generate a new application key
 php artisan key:generate
 ```
 
-Don't forget to run node commands
-
-```
-npm install && npm run dev
-```
-Change database entries in the .env file and in path config/database make it utf8 standart
-
-```
-.env as default: 
-DB_DATABASE=oxontweet
-```
-
 Start the local development server
 
 ```
@@ -69,12 +57,10 @@ You can now access the server at http://127.0.0.1:8000
 **Used command list**
 
 ```
-git clone git@github.com:boyziusas/twitter-app.git
+git clone git@github.com:boyziusas/oxon_gram_git.git
 cd oxon_gram_git
-composer update
+composer install
 cp .env.example .env
 php artisan key:generate
-npm install
-npm run dev
 php artisan serve 
 ```
