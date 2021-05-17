@@ -39,11 +39,7 @@ Copy the example env file and **change api_id and api_hash entries from core.tel
 ```
 cp .env.example .env
 ```
-```
-**change api_id and api_hash entries from core.telegram.com page** in the .env file**
-```
-
-Generate a new application key
+**change api_id and api_hash entries from core.telegram.com page** in the .env file** & Generate a new application key
 
 ```
 php artisan key:generate
