@@ -1,21 +1,78 @@
-# Laragram
+# oxon_gram_git
 
-A telegram web client built in laravel using Madeline Proto, an Async PHP client/server API for the telegram MTProto protocol (https://github.com/danog/MadelineProto). MadelineProto is a telegram approved PHP implementation which we are trying to harness for a Laravel based Telegram Web Client.
+## Installation
 
-## Wanna help out?
+Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/8.x/installation/)
 
-If you think you might be able to make this bigger or better or faster. Please please do. We welcome all contributions. Check out the project board to see what's left out and pick a task you feel comfortable with. We love merging pull requests.
+//
+PHP == 7.4.1
 
-## Queries
 
-If you have any queries, feel free to get in touch with info@greymore.tech
+Clone the project repository by running the command below if you use SSH
 
-## Licence
+```
+git clone git@github.com:boyziusas/twitter-app.git
+```
 
-Covered under the GNU AFFERO GENERAL PUBLIC LICENSE, Version 3. 
+If you use https, use this instead
 
-## Thanks and Gratitude
+```
+git clone https://github.com/boyziusas/twitter-app.git
+```
 
-[Danog](https://github.com/danog) for [MadelineProto](https://github.com/danog/MadelineProto)
+Switch to the repo folder
 
-[setiawanhu](https://github.com/setiawanhu) for [Laravel-Madeline-Proto](https://github.com/setiawanhu/laravel-madeline-proto)
+```
+cd twitter-app
+```
+
+Install all the dependencies using composer
+
+```
+composer update || composer install
+```
+
+Copy the example env file and **make the required configuration changes and fill missing entries from core.telegram.com page** in the .env file
+
+```
+cp .env.example .env
+```
+
+Generate a new application key
+
+```
+php artisan key:generate
+```
+
+Don't forget to run node commands
+
+```
+npm install && npm run dev
+```
+Change database entries in the .env file and in path config/database make it utf8 standart
+
+```
+.env as default: 
+DB_DATABASE=oxontweet
+```
+
+Start the local development server
+
+```
+php artisan serve
+```
+
+You can now access the server at http://127.0.0.1:8000
+
+**Used command list**
+
+```
+git clone git@github.com:boyziusas/twitter-app.git
+cd oxon_gram_git
+composer update
+cp .env.example .env
+php artisan key:generate
+npm install
+npm run dev
+php artisan serve 
+```
