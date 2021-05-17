@@ -1,5 +1,7 @@
 # oxon_gram_git
 
+Telegram Web client integration for Oxon Technologies company using Madelineproto Telegram library for Laravel framework
+
 ## Installation
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/8.x/installation/)
