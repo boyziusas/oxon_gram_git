@@ -11,19 +11,19 @@ PHP == 7.4.1
 Clone the project repository by running the command below if you use SSH
 
 ```
-git clone git@github.com:boyziusas/twitter-app.git
+git clone git@github.com:boyziusas/oxon_gram_git.git
 ```
 
 If you use https, use this instead
 
 ```
-git clone https://github.com/boyziusas/twitter-app.git
+git clone https://github.com/boyziusas/oxon_gram_git.git
 ```
 
 Switch to the repo folder
 
 ```
-cd twitter-app
+cd oxon_gram_git
 ```
 
 Install all the dependencies using composer
