@@ -29,7 +29,7 @@ cd oxon_gram_git
 Install all the dependencies using composer
 
 ```
-composer update || composer install
+composer install
 ```
 
 Copy the example env file and **make the required configuration changes and fill missing entries from core.telegram.com page** in the .env file
